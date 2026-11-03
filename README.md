@@ -31,7 +31,7 @@
 - **First RSI applied to an entire frontier pre-training run.** To our knowledge, this is the first public, detailed account of recursive self-improvement (RSI) on a full pre-training run from scratch, not just on post-training or small-scale proxies.
 - **801-30B-A3B-Base**: a 30B-A3B MoE model trained from scratch on **11.8T tokens** in **three months** by a **newly formed team**.
 - **State-of-the-art open base model at the 30B MoE scale.** It beats Qwen3-30B-A3B and Nemotron-3.5-Lightning-30B-A3B and trails only the larger Qwen3.5-35B-A3B. It holds that position when every model gets **identical SFT**.
-- **Strong agentic headroom.** With only a **6B-token SFT** (no RL), it has the **highest average on four agentic benchmarks** among the fully post-trained models we compare, including Qwen3.6-35B-A3B.
+- **Strong agentic headroom.** With only a **6.33B-token SFT** (no RL), it has the **highest average on four agentic benchmarks** among the fully post-trained models we compare, including Qwen3.6-35B-A3B.
 
 ## Why RSI Is Different in Pre-training
 
@@ -83,7 +83,7 @@ All loops share a **Context Infrastructure**, the organization's memory. It brin
 
 <sub>All entries are base checkpoints. \*Gemma-4-26B-A4B reports the max score across multiple prompts and evaluation protocols per benchmark.</sub>
 
-### Base + identical SFT (6B tokens, no RL)
+### Base + Tiny SFT (6.33B tokens)
 
 <p align="center">
 <picture>
@@ -92,7 +92,7 @@ All loops share a **Context Infrastructure**, the organization's memory. It brin
 </picture>
 </p>
 
-<sub>Every base model is fine-tuned on the same 6B-token SFT data ([GAIR/801-30B-A3B-tiny-sft-dataset](https://huggingface.co/datasets/GAIR/801-30B-A3B-tiny-sft-dataset)), so differences mainly reflect the base models.</sub>
+<sub>Every base model is fine-tuned on the same 6.33B-token SFT data ([GAIR/801-30B-A3B-tiny-sft-dataset](https://huggingface.co/datasets/GAIR/801-30B-A3B-tiny-sft-dataset)), so differences mainly reflect the base models.</sub>
 
 ### Agentic: lightweight SFT vs. full vendor post-training
 
@@ -103,7 +103,7 @@ All loops share a **Context Infrastructure**, the organization's memory. It brin
 </picture>
 </p>
 
-<sub>Baselines are provider-released, fully post-trained models; 801-30B-A3B has only the 6B-token SFT. This is a reference point for post-training headroom, not a like-for-like comparison.</sub>
+<sub>Baselines are provider-released, fully post-trained models; 801-30B-A3B has only the 6.33B-token SFT. This is a reference point for post-training headroom, not a like-for-like comparison.</sub>
 
 ## Release
 
