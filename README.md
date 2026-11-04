@@ -108,7 +108,7 @@ All loops share a **Context Infrastructure**, the organization's memory. It brin
 ## Release
 
 - 📄 **Technical report**: [`report.pdf`](report.pdf)
-- 🤗 **Tiny-SFT dataset**: [GAIR/801-30B-A3B-tiny-sft-dataset](https://huggingface.co/datasets/GAIR/801-30B-A3B-tiny-sft-dataset), the lightweight SFT data used in the report. It is a ready-made resource for evaluating the post-training headroom of base models.
+- 🤗 **Tiny-SFT dataset**: [GAIR/801-30B-A3B-tiny-sft-dataset](https://huggingface.co/datasets/SII-GAIR-NLP/801-30B-A3B-tiny-sft-dataset), the lightweight SFT data used in the report. It is a ready-made resource for evaluating the post-training headroom of base models.
 - 🧠 **801-30B-A3B-Base**: coming soon.
 
 ## Citation
