@@ -16,7 +16,7 @@
 
 **801-30B-A3B-Base** · *SII & Xinxu AI*
 
-[![Report](https://img.shields.io/badge/📄_Technical_Report-PDF-b31b1b)](report.pdf) [![GitHub](https://img.shields.io/badge/GitHub-801--30B-181717?logo=github)](https://github.com/GAIR-NLP/801-30B) [![Dataset](https://img.shields.io/badge/🤗_Dataset-801--30B--A3B--tiny--sft-yellow)](https://huggingface.co/datasets/GAIR/801-30B-A3B-tiny-sft-dataset)
+[![Report](https://img.shields.io/badge/📄_Technical_Report-PDF-b31b1b)](report.pdf) [![GitHub](https://img.shields.io/badge/GitHub-801--30B-181717?logo=github)](https://github.com/GAIR-NLP/801-30B) [![Dataset](https://img.shields.io/badge/🤗_Dataset-801--30B--A3B--tiny--sft-yellow)](https://huggingface.co/datasets/SII-GAIR-NLP/801-30B-A3B-tiny-sft-dataset)
 
 </div>
 
