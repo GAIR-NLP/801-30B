@@ -72,7 +72,7 @@ All loops share a **Context Infrastructure**, the organization's memory. It brin
 
 ## Results
 
-### Base model
+### Base Model
 
 <p align="center">
 <picture>
@@ -94,7 +94,7 @@ All loops share a **Context Infrastructure**, the organization's memory. It brin
 
 <sub>Every base model is fine-tuned on the same 6.33B-token SFT data ([GAIR/801-30B-A3B-tiny-sft-dataset](https://huggingface.co/datasets/GAIR/801-30B-A3B-tiny-sft-dataset)), so differences mainly reflect the base models.</sub>
 
-### Agentic: lightweight SFT vs. full vendor post-training
+### Agentic: Tiny SFT vs. Fully Post-trained Models
 
 <p align="center">
 <picture>
